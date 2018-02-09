@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <title>Vacation Planner</title>
+    <link rel="stylesheet" type="text/css" href="VacationPlanner.css" />
+</head>
+
+<body>
+    <header>
+        <h1 id="greeting">Добро пожаловать в путешествие по России</h1>
+    </header>
+    <section>
+        <h2>Количество дней</h2>
+        <p id="timingError" class="error"></p>
+        <label for="days">Сколько дней вы планируете отдыхать?</label>
+        <input id="days" type="text" placeholder="введите число">
+        <button id="enterDays">введите</button>
+        <p id="hoursMessage"></p>
+        <p id="daysMessage"></p>       
+        <button hidden class="next" id="timingNext">следующий</button>
+    </section>
+
+    <section id="budgetSection" hidden>
+        <h2>Бюджет</h2>        
+        <label for="dailyBudget">Введите ваши расходы в рублях:</label>
+        <input id="tripBudget" type="text" placeholder="введите число">
+        <input type="button" value="введите" id="enterBudget">
+
+        <p id="tripExchangeMsg"></p>
+        <p id="dailyExchangeMsg"></p>
+        <button hidden id="budgetNext" class="next">следующий</button>
+    </section>
+    <script src="VacationPlanner.js" type="text/javascript"></script>
+</body>
+
+</html>
