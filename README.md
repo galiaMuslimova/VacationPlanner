@@ -1,4 +1,4 @@
 Vacation planner 
 Js
 
-Demo:  https://galiamuslimova.github.io/vanillaJS/
+Demo:  https://galiamuslimova.github.io/VacationPlanner/
